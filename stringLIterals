@@ -1,0 +1,7 @@
+fn main() {
+    let s1 = String::from("Hello, Rust!");
+    let s2 = "Programming".to_string();
+    println!("s1: {}", s1);
+    println!("s2: {}", s2);
+}
+
