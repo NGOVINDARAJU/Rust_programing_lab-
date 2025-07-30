@@ -1,0 +1,18 @@
+fn main() {
+    let a = 10.0;
+    let b = 5.0;
+    let op = '+';
+
+    let result = match op {
+        '+' => a + b,
+        '-' => a - b,
+        '*' => a * b,
+        '/' => a / b,
+        _ => {
+            println!("Invalid operator");
+            return;
+        }
+    };
+
+    println!("Result: {}", result);
+}
