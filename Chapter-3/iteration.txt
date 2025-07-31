@@ -1,0 +1,11 @@
+fn main() {
+    let mut count = 0;
+    let mut num = 1;
+
+    while num < 100 {
+        count += 1;
+        num *= 2;
+    }
+
+    println!("Iterations: {}", count);
+}
