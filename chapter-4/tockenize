@@ -1,0 +1,9 @@
+fn main() {
+    let sentence = "Rust is fast and memory-safe";
+    let tokens = sentence.split_whitespace();
+
+    for token in tokens {
+        println!("{}", token);
+    }
+}
+
