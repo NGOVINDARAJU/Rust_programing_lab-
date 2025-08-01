@@ -1,0 +1,9 @@
+fn main() {
+    let str = String::from("  Hello, Rust Programming!  ");
+
+    println!("Capacity: {}", str.capacity());
+    println!("Contains 'Rust': {}", str.contains("Rust"));
+    println!("Replaced: {}", str.replace("Rust", "World"));
+    println!("Trimmed: '{}'", str.trim());
+}
+
