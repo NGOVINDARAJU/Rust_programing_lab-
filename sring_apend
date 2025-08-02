@@ -1,0 +1,13 @@
+
+
+# Appending one string to another
+str1 = "Hello"
+str2 = " World"
+result = str1 + str2
+print("Appended string:", result)
+
+# Inserting str2 into str1 at index 3
+index = 3
+result = str1[:index] + str2 + str1[index:]
+print("Inserted string:", result)
+
