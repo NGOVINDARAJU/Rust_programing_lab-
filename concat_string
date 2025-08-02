@@ -1,0 +1,13 @@
+fn concatenate_c_words(input: &str) -> String {
+    input
+        .split_whitespace()
+        .filter(|word| word.to_lowercase().starts_with('c'))
+        .collect()
+}
+
+fn main() {
+    let input = "Cat comes crawling carrying cookies";
+    let result = concatenate_c_words(input);
+    println!("{}", result); // Output: Catcomescrawlingcarryingcookies
+}
+
